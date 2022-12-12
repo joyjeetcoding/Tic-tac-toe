@@ -67,7 +67,7 @@ const winFunction = (letter) => {
 // Function for draw
 const drawFunction = () => {
     disableButtons();
-    msgRef.innerHTML = "Dude <br> It's a Draw";
+    msgRef.innerHTML = "It's a Draw";
 }
 
 // Win Logic
