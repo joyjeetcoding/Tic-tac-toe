@@ -56,18 +56,18 @@ const winFunction = (letter) => {
     disableButtons();
     if(letter == "X")
     {
-        msgRef.innerHTML = "'X' wins";
+        msgRef.innerHTML = "Woohoo!!! <br> 'X' wins";
     }
     else
     {
-        msgRef.innerHTML ="'O' wins";
+        msgRef.innerHTML ="Woohoo!!! <br> 'O' wins";
     }
 }
 
 // Function for draw
 const drawFunction = () => {
     disableButtons();
-    msgRef.innerHTML = "It's a Draw";
+    msgRef.innerHTML = "Dude <br> It's a Draw";
 }
 
 // Win Logic
@@ -83,7 +83,7 @@ const winChecker = () => {
     // Check if elements are filled
     // If 3 elements are same then give them a win
 
-    if(element1 != "" && (element2 != "") & (element3 != ""))
+    if((element1 != "") && (element2 != "") & (element3 != ""))
     {
         if(element1 == element2 && element2 == element3)
         {
@@ -125,4 +125,3 @@ btnRef.forEach((element) => {
 
 // Enable Buttons and disable popup on page load
 window.onload = enableButtons;
-

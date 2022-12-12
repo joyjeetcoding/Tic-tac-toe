@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Outfit', sans-serif;
+    font-family: 'Playfair Display', serif;
 }
 
 body
@@ -21,7 +21,6 @@ body
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
-    /* display: ; */
 }
 
 .container
@@ -59,6 +58,7 @@ body
     cursor: pointer;
     margin: 1em auto;
     display: block;
+    font-weight: bold;
 }
 
 button:hover
@@ -91,6 +91,7 @@ button:hover
     color: white;
     border-radius: 8px;
     border: 2px  solid greenyellow;
+    cursor: pointer;
 }
 
 #message
